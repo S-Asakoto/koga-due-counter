@@ -13,6 +13,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    box-shadow: #000 0px 0px 10px;
 }
 
 body::after {
