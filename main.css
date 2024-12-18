@@ -1,0 +1,82 @@
+html {
+    background-color: #191616;
+}
+
+body {
+    margin: auto;
+    width: 100vw;
+    max-width: 71vh;
+    height: 100vh;
+    max-height: 141vw;
+    background-image: url(img/bg4.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#content {
+    width: 100%;
+    height: 0%;
+    padding-bottom: 43.1%;
+    background-image: url(img/s1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    mix-blend-mode: difference;
+}
+
+#days {
+    width: 36.2%;
+    height: 0%;
+    padding-bottom: 34.7%;
+    background-image: url(img/days.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16.3%;
+    right: 3%;
+    mix-blend-mode: difference;
+}
+
+#hundreds {
+    width: 30%;
+    aspect-ratio: 1;
+    mix-blend-mode: difference;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6%;
+    left: 0;
+    transform: rotate(4deg);
+}
+
+#tens {
+    width: 30%;
+    aspect-ratio: 1;
+    mix-blend-mode: difference;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1.8%;
+    left: 47.5%;
+    transform: rotate(-8deg);
+}
+
+#units {
+    width: 30%;
+    aspect-ratio: 1;
+    mix-blend-mode: difference;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4%;
+    left: 71%;
+    transform: rotate(6deg);
+}
